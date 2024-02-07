@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "f3262e17-9843-4e01-8a9d-a9176004473d",
+		"name": "Student collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32830500"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8181/student/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"shubham\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/student/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"student",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/student/get/2f49f28d-4527-4646-b8ee-b15571a31784",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8181/student/get/2f49f28d-4527-4646-b8ee-b15571a31784",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"student",
+						"get",
+						"2f49f28d-4527-4646-b8ee-b15571a31784"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/student/delete/2f49f28d-4527-4646-b8ee-b15571a31784",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/student/delete/2f49f28d-4527-4646-b8ee-b15571a31784",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"student",
+						"delete",
+						"2f49f28d-4527-4646-b8ee-b15571a31784"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/student/update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"yash\",\r\n    \"address\": \"Pune\",\r\n    \"id\": \"f83371c0-be51-40b4-a5da-a77f3f5fd9c2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/student/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"student",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
